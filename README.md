@@ -1,5 +1,5 @@
 # Redes_Convolucionais  
-Descrição do projeto: Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS. O objetivo foi desenvolver uma rede convolucional capaz de classificar uma imagem de um rosto humano em feminino ou masculino.  
+Descrição do projeto: Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS. O objetivo foi desenvolver uma rede convolucional capaz de classificar uma imagem de um rosto humano em feminino ou masculino. O modelo foi construído com 3 camadas convolucionais (ReLU e MaxPooling), uma camada Flatten, uma densa com 128 neurônios e uma de saída sigmoid para classificação binária. Foi treinado com otimizador Adam, função de perda binary_crossentropy, 20 épocas e batch size de 32. Após avaliar os resultados com os dados de teste, identificou-se overfitting. Tentativas de ajuste, como Early Stopping, pioraram o desempenho, e optou-se por manter o modelo original.  
 
 Instalação: Não é necessário apenas abra o código no colab (arquivo .ipynb) e execute-o no seu dispositivo.  
 
